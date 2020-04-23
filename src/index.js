@@ -6,5 +6,4 @@ import registerServiceWorker from './registerServiceWorker';
 
 // Render to app
 ReactDOM.render(<App />, document.getElementById('root'));
-// Register server workers
 registerServiceWorker();
